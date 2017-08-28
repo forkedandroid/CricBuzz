@@ -32,3 +32,21 @@ An Android Application, using which you can find Live Scores for ongoing Cricket
 
 #Match Detail
 -http://mapps.cricbuzz.com/cbzios/match/18375
+
+#Match Score Card
+-http://mapps.cricbuzz.com/cbzios/match/18375/scorecard.json
+
+#Commentry
+-http://mapps.cricbuzz.com/cbzios/match/18375/commentary
+
+#Mini-Commentry
+-http://mapps.cricbuzz.com/cbzios/match/18375/mini-commentary
+
+#Highlights
+-http://mapps.cricbuzz.com/cbzios/match/18375/highlights.json
+
+#Leanback
+-http://mapps.cricbuzz.com/cbzios/match/18375/leanback.json
+
+#Matchfacts
+http://mapps.cricbuzz.com/cbzios/match/18375/matchfacts
