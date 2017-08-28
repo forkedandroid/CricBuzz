@@ -70,7 +70,7 @@ public class CricketScoreActivity extends AppCompatActivity {
         });
 
         ivAnim = (ImageView) findViewById(R.id.ivAnim);
-        ivAnim.setBackgroundResource(R.drawable.anim_items);
+        //ivAnim.setBackgroundResource(R.drawable.anim_items);
 
         DefaultItemAnimator animator = new DefaultItemAnimator();
         animator.setAddDuration(1000);
@@ -99,8 +99,8 @@ public class CricketScoreActivity extends AppCompatActivity {
 
         cricketScoreTask.execute(URL.toString());
 
-        AnimationDrawable ar = (AnimationDrawable) ivAnim.getBackground();
-        ar.start();
+       /* AnimationDrawable ar = (AnimationDrawable) ivAnim.getBackground();
+        ar.start();*/
 
     }
 }

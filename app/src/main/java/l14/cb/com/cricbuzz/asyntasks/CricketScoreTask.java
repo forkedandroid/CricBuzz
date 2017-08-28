@@ -87,9 +87,9 @@ public class CricketScoreTask extends AsyncTask<String,Void,CricketScorePOJO> {
                     jsonObject.getBoolean("matchStarted"),
                     jsonObject.getString("team-1"),
                     jsonObject.getString("team-2"),
-                    jsonObject.getString("type"),
+                    jsonObject.getString("stat"),
                     score,
-                    jsonObject.getString("innings-requirement")
+                    jsonObject.getString("description")
             );
 
  //Log.d(TAG, "doInBackground: " + jsonObject.getString("types"));

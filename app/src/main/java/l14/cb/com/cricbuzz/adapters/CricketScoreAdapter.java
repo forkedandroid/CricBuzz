@@ -136,16 +136,21 @@ public class CricketScoreAdapter extends RecyclerView.Adapter<CricketScoreAdapte
 
     private String getCurrBatsman(String score) {
 
-        StringBuilder sb = new StringBuilder();
+       /* StringBuilder sb = new StringBuilder();
 
         int indexStart = score.indexOf(',') + 2;
         int indexEnd = score.lastIndexOf(',') - 1;
 
         return score.substring(indexStart, indexEnd + 1);
+*/
+
+        return score;
     }
 
     private String getCurrBowler(String score) {
 
+        return score;
+        /*
         StringBuilder sb = new StringBuilder();
 
         int index = score.lastIndexOf(',') + 2;
@@ -159,6 +164,6 @@ public class CricketScoreAdapter extends RecyclerView.Adapter<CricketScoreAdapte
             sb.append(score.charAt(i));
         }
 
-        return sb.toString();
+        return sb.toString();*/
     }
 }

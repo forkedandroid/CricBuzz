@@ -80,7 +80,7 @@ public class LiveMatchTask extends AsyncTask<String, Integer, ArrayList<LiveMatc
 
                 JSONObject currItem = jsonArray.getJSONObject(i);
 
-                if (matchStarted == currItem.getBoolean("matchStarted")) {
+                if (matchStarted == currItem.getBoolean("squad")) {
 
                     liveMatches.add(new LiveMatchPOJO(
 
@@ -88,7 +88,7 @@ public class LiveMatchTask extends AsyncTask<String, Integer, ArrayList<LiveMatc
                                     currItem.getString("unique_id"),
                                     currItem.getString("team-1"),
                                     currItem.getString("team-2"),
-                                    currItem.getBoolean("matchStarted"))));
+                                    currItem.getBoolean("squad"))));
 
                 } else {
 

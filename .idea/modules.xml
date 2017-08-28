@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CricBuzz.iml" filepath="$PROJECT_DIR$/CricBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CricBuzz.iml" filepath="$PROJECT_DIR$/.idea/CricBuzz.iml" />
+      <module fileurl="file://E:\Prashant\Github_Demo\CricBuzz\CricBuzz.iml" filepath="E:\Prashant\Github_Demo\CricBuzz\CricBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Prashant\Github_Demo\CricBuzz\app\app.iml" filepath="E:\Prashant\Github_Demo\CricBuzz\app\app.iml" />
     </modules>
   </component>
 </project>
