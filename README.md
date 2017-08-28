@@ -22,3 +22,13 @@ An Android Application, using which you can find Live Scores for ongoing Cricket
 
 #Get commentry
 -http://synd.cricbuzz.com/j2me/1.0/match/2017/2017_SL_IND/SL_IND_AUG27/commentary.xml
+
+
+
+** Json Apis **
+
+#Live match list
+-_http://mapps.cricbuzz.com/cbzios/match/livematches
+
+#Match Detail
+-_http://mapps.cricbuzz.com/cbzios/match/18375
