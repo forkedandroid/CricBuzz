@@ -28,7 +28,7 @@ An Android Application, using which you can find Live Scores for ongoing Cricket
 ** Json Apis **
 
 #Live match list
--_http://mapps.cricbuzz.com/cbzios/match/livematches
+-http://mapps.cricbuzz.com/cbzios/match/livematches
 
 #Match Detail
--_http://mapps.cricbuzz.com/cbzios/match/18375
+-http://mapps.cricbuzz.com/cbzios/match/18375
