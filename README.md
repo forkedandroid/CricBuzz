@@ -50,3 +50,32 @@ An Android Application, using which you can find Live Scores for ongoing Cricket
 
 #Matchfacts
 http://mapps.cricbuzz.com/cbzios/match/18375/matchfacts
+
+
+
+# Football Api
+
+#Ref.
+ -https://www.jokecamp.com/blog/guide-to-football-and-soccer-data-and-apis/
+ -https://api.football-data.org/documentation
+
+
+#soccerseasons
+http://api.football-data.org/v1/soccerseasons
+
+#teams
+http://api.football-data.org/v1/soccerseasons/450/teams
+
+#teams
+http://api.football-data.org/v1/teams/548
+
+#players
+http://api.football-data.org/v1/teams/548/players
+
+#competitions
+http://api.football-data.org/v1/competitions/?season=2018
+
+#fixtures
+http://api.football-data.org/v1/competitions/467/fixtures
+
+
